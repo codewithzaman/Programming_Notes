@@ -1,0 +1,18 @@
+Definition Of Hooks :
+>> Hooks allow function components to have access to state and other React features
+>> Hooks are functions that let you “hook into” React state and lifecycle features from function components.
+Types of Hooks:
+Basic Hooks: 
+1. useState
+2. useEffect
+3. useContext
+Additional Hooks :
+4. useReducer
+5. useCallBack
+6. useMemo
+7. useRef
+8. useImparativeHandle 
+9. useLayoutEffect
+10. useDebugValue
+
+
