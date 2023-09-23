@@ -24,3 +24,10 @@ useEffect hook is used for side effects. First we will learn about components li
 So basically if we want to perform a task between the component life cycle then we use UseEffect Hook .
 Useeffect takes a call back function and a 
 
+3. useContext :
+Share data without passing props 
+React Context is a way to manage state globally.
+
+It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.
+
+
