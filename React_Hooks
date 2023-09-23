@@ -15,4 +15,12 @@ Additional Hooks :
 9. useLayoutEffect
 10. useDebugValue
 
+2. useEffect:
+useEffect hook is used for side effects. First we will learn about components life cycle . types of components like counter , todo etc . There are following stages of a components 
+1. Initialization >> Component initialize here 
+2. Mounting >> component visible on screen 
+3. Updation >> When the state of a component changes 
+4. Unmounting >> When component invisible from screen 
+So basically if we want to perform a task between the component life cycle then we use UseEffect Hook .
+Useeffect takes a call back function and a 
 
