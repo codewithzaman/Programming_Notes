@@ -19,10 +19,24 @@
 
 // 3. Hoisting -- Varibale ko bananay sy pehlay use krnay ko hoisting kehtay hn
 // variable and functions are hoisted which means thier decleration move on the top of the code
-console.log(a);
-var a = 45;
-var b; // decleration and this will move on top and the value will be undefined 
-b=35; // initilization 
+// console.log(a);
+// var a = 45;
+// var b; // decleration and this will move on top and the value will be undefined 
+// b=35; // initilization 
 // undefind -- have exitance but no value  and not-defined have no existance as well as value 
-console.log(c); //  not defined as it does not exist and dont have value too
-var c ; // unefined as it exists but dont have value 
+// console.log(c); //  not defined as it does not exist and dont have value too
+// var c ; // unefined as it exists but dont have value 
+// 4. Data Types in Js
+// i) Primitive .. ii) Reference 
+// i) Primitives --- Number , String , Boolean , Null , Undefined 
+// ii) reference --- (),{},[] //  aisi koe b Value jisko copy krnay per real copy nhi hota balkay uss mn value ka refrence pass ho jata hy ussay hum reference value kehtay. or jiska copy krnay per real copy ho jy wo primitive avlue hoti hy 
+// var a = 12 ;
+// var b = a ;
+// b =b+2 ;
+var a = [13, 15];
+console.log("a :",a);
+var b = a ;
+console.log("b : ",b);
+b.pop(); // pop will remove last element from b array. 
+console.log("a :",a);
+console.log("b : ",b);
