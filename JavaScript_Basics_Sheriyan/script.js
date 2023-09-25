@@ -12,7 +12,17 @@
 // dulha = "harry"
 // console.log(dulha + " " + "weds" + " " + dulhan);
 
-const dulha = "lab";
-const dulhan = "laby";
-dulha = "harry" // we can not change the value of dulha as we use const
-console.log(dulha + " " + "weds" + " " + dulhan);
+// const dulha = "lab";
+// const dulhan = "laby";
+// dulha = "harry" // we can not change the value of dulha as we use const
+// console.log(dulha + " " + "weds" + " " + dulhan);
+
+// 3. Hoisting -- Varibale ko bananay sy pehlay use krnay ko hoisting kehtay hn
+// variable and functions are hoisted which means thier decleration move on the top of the code
+console.log(a);
+var a = 45;
+var b; // decleration and this will move on top and the value will be undefined 
+b=35; // initilization 
+// undefind -- have exitance but no value  and not-defined have no existance as well as value 
+console.log(c); //  not defined as it does not exist and dont have value too
+var c ; // unefined as it exists but dont have value 
