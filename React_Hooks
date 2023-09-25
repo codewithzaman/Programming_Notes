@@ -36,6 +36,7 @@ Context >> Provider >> UseContext Hook
 4. UseReducer 
 The useReducer Hook is similar to the useState Hook.
 
-It allows for custom state logic.
+
+It allows for custom state logic. or manage complex state logics
 
 If you find yourself keeping track of multiple pieces of state that rely on complex logic, useReducer may be useful.
