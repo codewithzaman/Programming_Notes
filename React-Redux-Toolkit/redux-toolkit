@@ -1,0 +1,4 @@
+✍️👋 React Redux ToolKit
+🔗 What is Redux
+Redux is a state management tool that works as a “centralized store,” which means that it is the only place to access the state, Also known as “The single source of truth.”
+The single source of truth is the only place where the application’s state lives and can be accessed.
